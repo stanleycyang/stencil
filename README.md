@@ -8,7 +8,7 @@
 
 Go into your terminal:
 
-	$ curl https://raw.githubusercontent.com/syang019/html_script/master/html.sh -O
+	$ curl https://raw.githubusercontent.com/syang019/html_script/master/html -O
 	$ chmod 755 html.sh
 	$ sudo mv html.sh /bin
 
