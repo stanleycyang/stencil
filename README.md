@@ -10,7 +10,7 @@
 
 Go into your terminal:
 
-	$ curl https://raw.githubusercontent.com/syang019/stencil_script/master/stencil -O
+	$ curl https://raw.githubusercontent.com/syang019/stencil/master/stencil -O
 	$ chmod 755 stencil
 	$ sudo mv stencil /bin
 
