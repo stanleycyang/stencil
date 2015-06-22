@@ -1,4 +1,6 @@
-#Initial setup for Macs
+#Stencil is a bash script that will create the basic files and folders for a quick html/javascript/css app.
+
+##Initial setup for Macs
 
 **Purpose:**
 
@@ -15,6 +17,6 @@ Go into your terminal:
 Now, to test this:
 
 	$ cd ~/Desktop
-	$ html HelloWorld
+	$ stencil HelloWorld
 
 Your script should now work!
