@@ -1,0 +1,53 @@
+#! /bin/bash
+
+if [ -z $1 ]; then
+  APP='html_boilerplate'
+else
+  APP=$1
+fi
+
+# Create my app structure
+mkdir $APP $APP/js $APP/css
+# echo out results
+echo "Created $APP"
+echo "Created ${APP}/css"
+echo "Created ${APP}/js"
+
+# Constants
+TITLE="${APP}"
+
+# Call the functions
+cat > $APP/index.html <<- EOM
+  <html>
+    <head>
+      <title>$TITLE</title>
+      <link href='css/style.css'></link>
+    </head>
+    <body>
+      <h1>$TITLE</h1>
+      <script src='js/main.js'></script>
+    </body>
+  </html>
+EOM
+
+# Alert that index.html was created
+echo "Created ${APP}/index.html"
+
+cat > $APP/css/style.css <<- EOM
+
+  body{
+    padding: 0;
+    margin: 0;
+  }
+
+EOM
+
+echo "Created ${APP}/css/style.css"
+
+cat > $APP/js/main.js <<- EOM
+
+  console.log('activate framework!');
+
+EOM
+
+echo "Created ${APP}/js/main.js"
