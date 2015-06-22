@@ -9,8 +9,8 @@
 Go into your terminal:
 
 	$ curl https://raw.githubusercontent.com/syang019/html_script/master/html -O
-	$ chmod 755 html.sh
-	$ sudo mv html.sh /bin
+	$ chmod 755 html
+	$ sudo mv html /bin
 
 Now, to test this:
 
