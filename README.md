@@ -10,9 +10,9 @@
 
 Go into your terminal:
 
-	$ curl https://raw.githubusercontent.com/syang019/html_script/master/html -O
-	$ chmod 755 html
-	$ sudo mv html /bin
+	$ curl https://raw.githubusercontent.com/syang019/stencil_script/master/stencil -O
+	$ chmod 755 stencil
+	$ sudo mv stencil /bin
 
 Now, to test this:
 
