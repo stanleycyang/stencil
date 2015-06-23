@@ -21,7 +21,7 @@ cat > $APP/index.html <<- EOM
   <html>
     <head>
       <title>$TITLE</title>
-      <link href='css/style.css'></link>
+      <link rel="stylesheet" type="text/css" href="css/style.css">
     </head>
     <body>
       <h1>$TITLE</h1>
