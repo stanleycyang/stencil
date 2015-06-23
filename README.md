@@ -1,10 +1,10 @@
-#Stencil is a bash script that will create the basic files and folders for a quick html/javascript/css app.
+#Stencil
 
 ##Initial setup for Macs
 
 **Purpose:**
 
->A shell script which creates a basic HTML app setup
+>A shell script which creates a basic HTML/CSS/JavaScript app setup
 
 ###Installing it on your Mac
 
