@@ -8,6 +8,7 @@ fi
 
 # Create my app structure
 mkdir $APP $APP/js $APP/css
+touch $APP/README.md
 # echo out results
 echo "Created $APP"
 echo "Created ${APP}/css"
