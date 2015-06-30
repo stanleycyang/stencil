@@ -11,6 +11,7 @@ mkdir $APP $APP/js $APP/css
 touch $APP/README.md
 # echo out results
 echo "Created $APP"
+echo "Created ${APP}/README.md"
 echo "Created ${APP}/css"
 echo "Created ${APP}/js"
 
