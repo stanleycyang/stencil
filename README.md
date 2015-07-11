@@ -19,4 +19,4 @@ Now, to test this:
 	$ cd ~/Desktop
 	$ stencil HelloWorld
 
-Your script should now work!
+Your script should now work! Now go forth and create awesome apps!
